@@ -33,3 +33,28 @@ header {
     float: left;
 }
 
+/*footer*/
+
+footer {
+    background-color: darkslategray;
+    height: 120px;
+}
+
+footer div {
+    font-size: 25px;
+    color: white;
+}
+#contact {
+    float:left;
+    margin-left: 30px;
+}
+
+#social-media {
+    float: left;
+    margin-left: 30%;
+}
+
+#extra-info {
+    float: right;
+    margin-right: 5%;
+}
