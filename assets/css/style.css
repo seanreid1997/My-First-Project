@@ -1,35 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Roboto+Condensed:ital,wght@1,700&family=The+Nautigal:wght@700&display=swap');
 * {
     margin: 0;
     padding: 0;
-    border: 0;
+    border: none;
 }
 
-/*header image (needs revision)*/
-
-#header-outer {
-    height: 400px;
-    width: 100%;
-    overflow: hidden;
+body {
+    background-color: silver;
 }
-
-#header-image {
-    height: 400px;
-    width: 100%;
-    background: url("../images/Bletchley_Park_Mansion.jpg") center center / cover no-repeat;
-    padding: 0;
-    margin: 0;
-    border: 0;
+/*Header and Navigation Section*/
+header{
+    height: 60px;
 }
-
-/*Navigation Section (needs revision)*/
 
 #nav-section {
     background-color: darkslategray;
     width: 100%;
-    height: 70px;
+    line-height: 60px;
     opacity: 0.7;
-    position: fixed;
-    margin-top: 330px;
+    position: absolute;
 }
 
 #menu a{
@@ -37,37 +26,95 @@
     font-size: 40px;
     font-weight: 200%;
     text-decoration: none;
-    
-    margin-right: 20px;
-    margin-left: 19%;
+    margin-left: 20%;
     float: left;
+    display: inline;
 }
 
 #menu a:hover {
-    text-decoration-style: double;
+    text-decoration: underline;
+
 }
+
+#menu a:active {
+    text-decoration: underline;
+}
+
+/*hero-image*/
+#image {
+    height: 400px;
+    width: 100%;
+}
+
+#main-image{
+    background: url("../images/Bletchley_Park_Mansion.jpg") no-repeat center center / contain;
+    height: 400px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: The Nautigal, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 200px;
+    color: ivory;
+}
+
+
+/*About Section*/
+
+#about-section {
+    margin-top: 40px;
+}
+
+h2 {
+    padding-left: 20px;
+    text-align: left;
+    font-size: 180%;
+    font-family: Roboto Condensed, sans-serif;
+}
+
+p {
+    padding-left: 20px;
+    font-size: 140%;
+    font-family: EB Garamond, sans-serif;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+}
+
 /*footer*/
+
 
 footer {
     background-color: darkslategray;
-    height: 120px;
+    height: 90px;
 }
 
-footer div {
-    font-size: 25px;
-    color: white;
-}
-#contact {
-    float:left;
-    margin-left: 30px;
+h3 {
+    font-family: Roboto Condensed, sans-serif;
 }
 
-#social-media {
+#social-media, #more-info {
     float: left;
     margin-left: 30%;
+    color: white;
+    font-size: 20px;
 }
 
-#extra-info {
-    float: right;
-    margin-right: 5%;
+h4 > a{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
 }
+
+h4 > a:hover {
+    text-decoration: underline;
+}
+
