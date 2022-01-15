@@ -28,7 +28,7 @@ header{
     text-decoration: none;
     margin-left: 20%;
     float: left;
-    display: inline;
+    vertical-align: middle;
 }
 
 #menu a:hover {
